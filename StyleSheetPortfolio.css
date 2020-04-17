@@ -1,0 +1,180 @@
+﻿body
+{
+}
+#nav-bar {
+    width: 270px;
+    height: 1000px;
+    background-color: black;
+    position: page;
+    float: left;
+    position: fixed;
+}
+
+#small-info {
+    padding: 40px;
+}
+
+#image1 {
+    height: 100px;
+    width: 80px;
+    margin: 30px 0 20px 40px;
+    border-radius: 20%;
+}
+
+#name {
+    margin-left: 22px;
+    color: white;
+}
+
+#describe {
+    margin-left: 32px;
+    color: grey;
+}
+
+#list {
+    list-style-type: none;
+    margin: 20px 0 0 65px;
+}
+
+a {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: blue;
+        text-decoration: none;
+    }
+
+    a:active {
+        color: white;
+        text-decoration: none;
+    }
+
+hr {
+    margin-top: 50px;
+    border: 1px solid;
+    width: 200px;
+}
+
+#contact-links {
+    margin-left: 38px;
+    margin-top: 50px;
+}
+
+.image2 {
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+}
+
+#main {
+    margin-left: 270px;
+    background-image: url("images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#image3 {
+    width: 330px;
+    height: 450px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    top: -50px;
+    border:1px solid black;
+}
+
+#name-b {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+#line-b {
+    font-size: 25px;
+}
+
+#initial-b {
+    margin-left: 130px;
+    margin-top: 100px;
+}
+
+.sub-col {
+    background-image: url("images/graphic.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 8px 40px;
+    border-radius: 20px;
+}
+
+.skill-img {
+    height: 200px;
+    width: 200px;
+}
+
+#begin {
+    background-image: url("images/graphic.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.academics {
+    background-image: url("images/gradient.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    color: floralwhite;
+}
+
+.projects {
+    background-image: url("images/gradient.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    color: floralwhite;
+}
+
+.first-heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.second-heading {
+    font-size: 23px;
+    font-weight: 100 !important;
+}
+
+.orange-back {
+    background-color: navajowhite;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.button-symbol {
+    color: white;
+    margin: 0 13em;
+}
+
+#foot {
+    background-color: black;
+    backface-visibility: visible;
+}
+
+#copyright {
+    text-align: center;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
